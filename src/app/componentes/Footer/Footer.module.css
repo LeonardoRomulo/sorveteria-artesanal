@@ -1,0 +1,66 @@
+.rodape {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.rodape_contatos {
+    width: 100%;
+    max-width: 1024px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 20%;
+    height: 100px;
+}
+
+.container h3 {
+    font-size: 18px;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 768px) {
+    .rodape {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape_contatos {
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 378px) {
+    .rodape {
+        max-width: 100%;
+        gap: 40px;
+        align-items: center;
+    }
+    .container {
+        width: 50%;
+    }
+    .dev{
+        text-align: center;
+    }
+}
