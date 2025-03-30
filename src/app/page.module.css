@@ -1,0 +1,38 @@
+.container{
+    z-index: 1;
+    position: absolute;
+    top: 50vh;
+    left: 25%;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #f9db79;
+}
+
+.container h1{
+    font-size: 100px;
+    color: #ffffff;
+    text-shadow: 10px 10px 7px #474747;
+}
+
+@media (max-width: 378px){
+    .banner{
+        justify-content: center;
+    }
+    .container{
+        max-width: 100%;
+        top: 60%;
+    }
+    .container h1 {
+        font-size: 40px;
+    }
+    .img_banner {
+        width: 350px;
+        height: 400px;
+    }
+}
