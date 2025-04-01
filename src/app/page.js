@@ -25,7 +25,7 @@ export default function Home() {
               </div>
 
               <div className={estilos.card_info}>
-                <h2>Nossos Sabores</h2>
+                <h2>NOSSOS SABORES</h2>
                 <h4>Novos e deliciosos!</h4>
                 <p>Sorvete bom é aquele feito com os melhores ingredientes! Aqui na gelateria todos os nossos produtos são naturais, à base de frutas e sem nenhum conservante! Também temos opções sem lactose e sem açúcar. Venha conhecer e perceber que tem como o sorvete ser delicioso e saudável ao mesmo tempo!
                 </p>
@@ -33,17 +33,18 @@ export default function Home() {
             </div>
 
             <div className={estilos.box_card}>
-
-              <div className={estilos.card_info}>
-                <h2>Nossos Sabores</h2>
-                <h4>Novos e deliciosos!</h4>
-                <p>Sorvete bom é aquele feito com os melhores ingredientes! Aqui na gelateria todos os nossos produtos são naturais, à base de frutas e sem nenhum conservante! Também temos opções sem lactose e sem açúcar. Venha conhecer e perceber que tem como o sorvete ser delicioso e saudável ao mesmo tempo!
-                </p>
-
               </div>
               <div className={estilos.card}>
                 <Image className={estilos.img_sabores} src={eventos} alt="sorverte banner sobre"></Image>
               </div>
+
+              <div className={estilos.card_info}>
+                <h2>NOSSOS EVENTOS</h2>
+                <h4>Delicias com sorvete!</h4>
+                <p>Delicias com sorvete!
+                  Mais do que uma sorveteria, uma extensão da sua casa! Estamos aqui prontinhos para te atender e oferecer os melhores eventos com os melhores sorvete da sua vida! Venha nos conhecer e passar um tempo aqui com a gente.
+                </p>
+
 
             </div>
 
@@ -54,7 +55,7 @@ export default function Home() {
               </div>
 
               <div className={estilos.card_info}>
-                <h2>Nossos Sabores</h2>
+                <h2>SOBRE NÓS</h2>
                 <h4>Novos e deliciosos!</h4>
                 <p>Sorvete bom é aquele feito com os melhores ingredientes! Aqui na gelateria todos os nossos produtos são naturais, à base de frutas e sem nenhum conservante! Também temos opções sem lactose e sem açúcar. Venha conhecer e perceber que tem como o sorvete ser delicioso e saudável ao mesmo tempo!
                 </p>
