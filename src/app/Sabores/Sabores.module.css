@@ -1,0 +1,17 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../public/banner-sabores.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner h1 {
+    font-size: 100px;
+    text-shadow: 3px 5px 2px #474747;
+    color: #fff;
+}

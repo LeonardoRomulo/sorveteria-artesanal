@@ -1,5 +1,5 @@
 import Image from "next/image";
-import banner from "../../public/banner-home.png"
+// import banner from "../../public/banner-home.png"
 import estilos from "./page.module.css";
 import sabores from '../../public/banner-sabores.jpg';
 import eventos from '../../public/eventos-image.jpg';
@@ -10,11 +10,8 @@ export default function Home() {
     <div className={estilos.page}>
       <main>
         <section className={estilos.banner}>
-          <Image className={estilos.img_banner} src={banner} alt="banner"></Image>
-        </section>
-        <div className={estilos.container}>
           <h1>Sorverte Artesanal</h1>
-        </div>
+        </section>
 
         <section>
           <div className={estilos.container_card}>
