@@ -19,13 +19,13 @@ export default function Sabores() {
                 <div className={estilos.container}>
                     <div className={estilos.card}>
                         <Image className={estilos.img_card} src={Oreo} alt ='sorverte de oreo'></Image>
-                        <h3>Sorverte de Oreo</h3>
+                        <h3>Sorvete de Oreo</h3>
                         <p>Delicioso sorverte sabor de Oreo. Uma explosão de sabor</p>
                     </div>
 
                     <div className={estilos.card}>
                         <Image className={estilos.img_card} src={Pistache} alt='sorverte de oreo'></Image>
-                        <h3>Sorverte de Pistache</h3>
+                        <h3>Sorvete de Pistache</h3>
                         <p>Cremoso sorvete sabor pistache com pedacinhos de semente.</p>
                     </div>
 
