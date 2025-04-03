@@ -20,7 +20,7 @@ export default function Sabores() {
                     <div className={estilos.card}>
                         <Image className={estilos.img_card} src={Oreo} alt ='sorverte de oreo'></Image>
                         <h3>Sorvete de Oreo</h3>
-                        <p>Delicioso sorverte sabor de Oreo. Uma explosão de sabor</p>
+                        <p>Delicioso sorvete sabor de Oreo. Uma explosão de sabor</p>
                     </div>
 
                     <div className={estilos.card}>
