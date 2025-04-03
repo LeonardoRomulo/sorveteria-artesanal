@@ -5,7 +5,9 @@ import Footer from '@/app/componentes/Footer/page.jsx'
 export const metadata = {
   title: "Gelateria",
   description: "A melhor sorverteria agora perto de você",
-  icon: "/favicon.png"
+  icons: {
+    icon: "/favicon.ico",
+},
 };
 
 export default function RootLayout({ children }) {
