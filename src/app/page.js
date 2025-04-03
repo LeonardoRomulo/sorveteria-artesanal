@@ -10,7 +10,7 @@ export default function Home() {
     <div className={estilos.page}>
       <main>
         <section className={estilos.banner}>
-          <h1>Sorverte Artesanal</h1>
+          <h1>Sorvete Artesanal</h1>
         </section>
 
         <section>
@@ -18,7 +18,7 @@ export default function Home() {
             <div className={estilos.box_card}>
 
               <div className={estilos.card}>
-                <Image className={estilos.img_sabores} src={sabores} alt="sorverte banner sobre"></Image>
+                <Image className={estilos.img_sabores} src={sabores} alt="sorvete banner sobre"></Image>
               </div>
 
               <div className={estilos.card_info}>
@@ -48,7 +48,7 @@ export default function Home() {
             <div className={estilos.box_card}>
 
               <div className={estilos.card}>
-                <Image className={estilos.img_sabores} src={sobre} alt="sorverte banner sobre"></Image>
+                <Image className={estilos.img_sabores} src={sobre} alt="sorvete banner sobre"></Image>
               </div>
 
               <div className={estilos.card_info}>
