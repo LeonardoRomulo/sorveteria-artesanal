@@ -15,7 +15,7 @@ export default function Sabores() {
             </section>
 
             <section className={estilos.sabores_sorvertes}>
-                <h2>SABORES DE SORVERTES</h2>
+                <h2>SABORES DE SORVETES</h2>
                 <div className={estilos.container}>
                     <div className={estilos.card}>
                         <Image className={estilos.img_card} src={Oreo} alt ='sorverte de oreo'></Image>
