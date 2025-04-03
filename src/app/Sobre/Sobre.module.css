@@ -79,7 +79,7 @@
 
 @media (max-width: 428px) {
     .banner {
-        height: 80vh;
+        height: 100vh;
     }
 
     .banner h1 {

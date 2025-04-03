@@ -21,9 +21,9 @@ export default function Topo() {
         <header className={estilos.topo}>
             <div className={estilos.container_topo}>
                 {abrirMenu && (
-                    <Menu />
+                    <Menu fecharMenu={() => setAbrirMenu(false)} />
                 )}
-                
+
                 <button className={estilos.botao} onClick={atualizarMenu}>{abrirMenu ? <IoCloseSharp size={50} /> : <IoMenuSharp size={50} />}</button>
                 <Link href="/" alt="logo">
                     <Image className={estilos.img_logo} src={Logo} alt="logo da sorverteria" ></Image>

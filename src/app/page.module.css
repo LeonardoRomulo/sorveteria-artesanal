@@ -114,7 +114,7 @@
 @media (max-width: 428px) {
     .banner {
         justify-content: center;
-        height: 70vh;
+        height: 100vh;
         margin-top: 100px;
     }
 
